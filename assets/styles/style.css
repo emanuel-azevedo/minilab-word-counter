@@ -1,3 +1,40 @@
+/* * * {
+  border: solid red 1px
+} */
+
 body {
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+#textBox {
+  width: 400px;
+  height: 200px;
+}
+
+#btnCountWords {
+  margin-top: 1rem;
+  background-color: rgb(0, 157, 255);
+  color: white;
+  font-weight: 540;
+  border: none;
+  border-radius: 5px;
+  height: 2.2rem;
+}
+
+#wordCount {
+  font-weight: 900;
 }

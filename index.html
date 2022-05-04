@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="./assets/styles/style.css" rel="stylesheet" type="text/css">
+  <title>Contador de palavras</title>
+</head>
+<body>
+  <div class="container">
+    <div class="input-container">
+      <textarea id="textBox" rows="5"> </textarea>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
-
-    <title>Contador de palavras</title>
-  </head>
-  <body>
-    <script src="./assets/scripts/index.js"></script>
-  </body>
+      <button id="btnCountWords" type="button" >Contar palavras</button>
+    
+    </div>
+    <p>Você digitou <span id="wordCount">0</span> palavras</p>
+  </div>
+  
+  <script src="./assets/scripts/index.js"></script>
+</body>
 </html>
